@@ -75,6 +75,13 @@ DELETE /tasks/:id
 
 Task routes require authentication.
 
+## Swagger
+
+The backend exposes interactive API documentation through Swagger UI.
+When running the application locally, open:
+
+http://localhost:8080/docs
+
 ## Docker development
 
 Both the frontend and backend have their own `Dockerfile` intended for development.
@@ -108,8 +115,6 @@ CLERK_PUBLISHABLE_KEY=...
 CLERK_SECRET_KEY=...
 CLIENT_ORIGIN=http://localhost:3000
 ```
-
-Do not commit real secret keys.
 
 ## Database
 
@@ -181,7 +186,6 @@ Backend:
 ```bash
 npm run dev
 ```
-
 
 ---
 
@@ -264,9 +268,17 @@ DELETE /tasks/:id
 
 As rotas de tarefas exigem autenticação.
 
+# Swagger
+
+O backend disponibiliza uma documentação interativa da API através do
+Swagger UI.
+
+Quando a aplicação estiver rodando localmente:
+http://localhost:8080/docs
+
 ## Desenvolvimento com Docker
 
-Tanto o frontend quanto o backend possuem seu próprio `Dockerfile`, destinados ao ambiente de desenvolvimento.
+Tanto o frontend quanto o backend possuem seus próprios `Dockerfile`, destinados ao ambiente de desenvolvimento.
 
 O PostgreSQL também pode ser executado através do Docker Compose.
 
@@ -276,7 +288,7 @@ Configuração típica:
 docker compose up -d
 ```
 
-Depois, execute os containers de desenvolvimento do frontend e do backend de acordo com seus respectivos Dockerfiles/configuração do Compose.
+Depois, execute os containers de desenvolvimento do frontend e do backend de acordo com seus respectivos Dockerfiles/configurações do Compose.
 
 ## Variáveis de ambiente
 
@@ -297,8 +309,6 @@ CLERK_PUBLISHABLE_KEY=...
 CLERK_SECRET_KEY=...
 CLIENT_ORIGIN=http://localhost:3000
 ```
-
-Não faça commit de chaves secretas reais.
 
 ## Banco de dados
 
@@ -357,7 +367,7 @@ Inicie o PostgreSQL:
 docker compose up -d postgres
 ```
 
-Depois, execute os servidores de desenvolvimento do frontend e backend ou utilize os respectivos Dockerfiles de desenvolvimento.
+Depois, execute os servidores de desenvolvimento do frontend e do backend ou utilize os respectivos Dockerfiles de desenvolvimento.
 
 Frontend:
 
