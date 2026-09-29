@@ -185,6 +185,8 @@ npm run dev
 
 ---
 
+PTBR 🇧🇷
+
 # Task Manager
 
 Aplicação full-stack de gerenciamento de tarefas com frontend em Next.js e backend em Express/TypeScript.
