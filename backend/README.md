@@ -108,6 +108,7 @@ The API uses HTTP status codes for validation, authentication, missing resources
 For example, attempting to create a duplicate task title for the same user violates the database unique constraint and should be exposed to the frontend as a conflict (`409`).
 
 ---
+PTBR 🇧🇷
 
 # Task Manager Backend
 
