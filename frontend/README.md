@@ -83,6 +83,7 @@ React Query is used to fetch tasks and perform create/update/delete mutations. S
 
 
 ---
+PTBR 🇧🇷
 
 # Task Manager Frontend
 
